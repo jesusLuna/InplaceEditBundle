@@ -1,0 +1,25 @@
+{
+    "name" : "jesusluna/inplaceedit-bundle",
+    "description" : "Symfony bundle that allows you to inline edition of some data from the database",
+    "type" : "symfony-bundle",
+    "homepage": "https://github.com/jesusLuna/InplaceEditBundle",
+    "authors" : [{
+        "name" : "Jesus Luna",
+        "email" : "jesusluna22@hotmail.com"
+    }],
+    "keywords" : ["inplace", "edit", "form", "bundle"],
+    "license" : "MIT",
+    "require" : {
+    },
+    "autoload" : {
+        "psr-4": { "JesusLuna\\Bundle\\InplaceEditBundle\\": "" },
+        "exclude-from-classmap": ["/Tests/"]
+    },
+    "repositories" : [{
+    }],
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "0.1.x-dev"
+        }
+    }
+}
