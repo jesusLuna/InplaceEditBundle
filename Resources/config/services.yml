@@ -1,0 +1,4 @@
+services:
+#    inplace_edit.example:
+#        class: JesusLuna\Bundle\InplaceEditBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
